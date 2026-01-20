@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Lanchonete Almeida</title>
+</head>
+
+<body>
+    <header class="header-principal">
+        <div class="container-header">
+
+            <div class="header-topo">
+                <img class="logo" src="./assets/imagens/noproduct_imageplaceholder.png" alt="Logo">
+
+                <div class="titulo">
+                    <h1>Lanchonete Almeida</h1>
+                    <p>Lanches artesanais • Pedido rápido pelo WhatsApp</p>
+                </div>
+            </div>
+
+            <nav class="menu-principal">
+                <ul class="links-menu">
+                    <li><a href="./index.html" class="ativo">Início</a></li>
+                    <li><a href="./cardapio.html">Cardápio</a></li>
+                    <li><a href="./atendimento.html">Atendimento</a></li>
+                    <li><a href="./duvidas.html">Como Funciona</a></li>
+                </ul>
+
+                <div class="acoes-header">
+                    <a href="#" class="acao">
+                        <img src="./assets/whatsapp.svg">
+                    </a>
+                    <a href="#" class="acao">
+                        <img src="./assets/ifood-logo.svg">
+                    </a>
+                    <a href="#" class="acao">
+                        <img src="./assets/instagram.svg">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-index">
+        <section class="hero">
+            <div class="hero-conteudo">
+                <h1>Hambúrguer artesanal de verdade, do jeito que você gosta!</h1>
+
+                <p class="hero-subtitulo">
+                    Ingredientes selecionados, preparo artesanal e pedido rápido pelo iFood ou WhatsApp.
+                </p>
+
+                <p class="hero-texto">
+                    Do clássico X-Burger aos nossos lanches especiais, tudo feito com cuidado e qualidade.
+                </p>
+
+                <div class="hero-botoes">
+                    <a href="./cardapio.html" class="btn-principal">Ver Cardápio</a>
+                    <a href="#" target="_blank" class="btn-secundario">Pedir pelo WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="destaques">
+            <h2>Escolha do Chef</h2>
+            <p class="subtitulo-destaques">
+                Os sabores que representam a essência da nossa casa
+            </p>
+
+            <div class="slideshow-container">
+
+                <!-- Slide 1 -->
+                <div class="mySlides fade">
+                    <img src="./assets/imagens/burger_example.png" alt="Hambúrguer Duplo Almeida">
+                    <div class="text">
+                        <strong>Duplo Almeida ⭐</strong>
+                        <em>Disponível no nosso cardápio</em>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="mySlides fade">
+                    <img src="./assets/imagens/simple_burger.png" alt="X Burger">
+                    <div class="text">
+                        <strong>X Burger</strong>
+                        <em>Peça agora pelo WhatsApp ou iFood</em>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="mySlides fade">
+                    <img src="./assets/imagens/fritas_example.png" alt="Batata com Cheddar e Bacon">
+                    <div class="text">
+                        <strong>Batata com Cheddar e Bacon</strong>
+                        <em>Combina com qualquer lanche</em>
+                    </div>
+                </div>
+
+                <!-- Botões -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </section>
+
+        <section class="favoritos-casa">
+            <h2>Favoritos da Casa</h2>
+            <p class="subtitulo-favoritos">
+                Os pedidos que fazem mais sucesso por aqui
+            </p>
+
+            <div class="cards-favoritos">
+
+                <!-- Card 1 - Favorito do Público -->
+                <article class="card-favorito destaque-ouro">
+                    <img src="./assets/imagens/burger_example.png" alt="Duplo Almeida">
+                    <div class="card-info">
+                        <span class="badge">⭐ Favorito do Público</span>
+                        <h3>Duplo Almeida</h3>
+                        <p>
+                            Nosso campeão de pedidos: dois hambúrgueres, queijo derretido
+                            e sabor marcante.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="card-favorito destaque-prata">
+                    <img src="./assets/imagens/burger_example.png" alt="X Burger">
+                    <div class="card-info">
+                        <h3>X Burger</h3>
+                        <p>
+                            O clássico que nunca sai de moda. Simples, rápido e delicioso.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="card-favorito destaque-bronze">
+                    <img src="./assets/imagens/fritas_example.png" alt="Batata com Cheddar e Bacon">
+                    <div class="card-info">
+                        <h3>Batata Cheddar & Bacon</h3>
+                        <p>
+                            Crocante por fora, cremosa por dentro e cheia de sabor.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="cta-pedido-section">
+            <article class="cta-pedido">
+                <h2>Já sabe o que vai pedir?</h2>
+                <div class="cta-text">
+                    <p>
+                        Peça agora mesmo e receba no conforto da sua casa.
+                        Atendimento rápido e entrega no bairro.
+                    </p>
+                </div>
+
+                <a href="#" class="btn-pedir">
+                    Pedir agora 🍔
+                </a>
+            </article>
+
+            <article class="info-mapa">
+                <h2>Onde Você Pode nos Encontrar</h2>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120048.47545184505!2d-44.04645095982219!3d-19.902697333633412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1766762646051!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <a href="atendimento.html" class="btn-atendimento">
+                    Ver horários e atendimento
+                </a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="ano-atual"></span> Lanchonete Almeida.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>
