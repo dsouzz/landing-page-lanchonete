@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/atendimento.css">
+</head>
+
+<body>
+    <header class="header-principal">
+        <div class="container-header">
+
+            <div class="header-topo">
+                <img class="logo" src="./assets/imagens/noproduct_imageplaceholder.png" alt="Logo">
+
+                <div class="titulo">
+                    <h1>Lanchonete Almeida</h1>
+                    <p>Lanches artesanais • Pedido rápido pelo WhatsApp</p>
+                </div>
+            </div>
+
+            <nav class="menu-principal">
+                <ul class="links-menu">
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./cardapio.html">Cardápio</a></li>
+                    <li><a href="./atendimento.html" class="ativo">Atendimento</a></li>
+                    <li><a href="./duvidas.html">Como Funciona</a></li>
+                </ul>
+
+                <div class="acoes-header">
+                    <a href="#" class="acao">
+                        <img src="./assets/whatsapp.svg">
+                    </a>
+                    <a href="#" class="acao">
+                        <img src="./assets/ifood-logo.svg">
+                    </a>
+                    <a href="#" class="acao">
+                        <img src="./assets/instagram.svg">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="nossoAtendimento">
+            <h2>Atendimento</h2>
+
+            <div class="atendimento-grid">
+                <!-- HORÁRIO DE FUNCIONAMENTO -->
+                <article class="atendimento-bloco funcionamento">
+                    <h3>Horário de Funcionamento</h3>
+                    <p><strong>Estamos abertos de:</strong></p>
+                    <p>Segunda a Domingo — 18h às 23h</p>
+                    <p><em>Fechado às terças</em></p>
+                </article>
+
+                <!-- LOCALIZAÇÃO -->
+                <article class="atendimento-bloco localizacao">
+                    <h3>Onde Estamos</h3>
+                    <p><strong>Endereço:</strong></p>
+                    <p>Rua Exemplo, 123 — Centro</p>
+                    <p>Bairro / Cidade, UF</p>
+                </article>
+
+                <!-- PEDIR AGORA -->
+                <article class="atendimento-bloco pedir-agora">
+                    <h3>Peça agora pelo WhatsApp</h3>
+                    <p>Atendimento rápido e entrega no bairro</p>
+
+                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" class="btn-pedido"
+                        aria-label="Fazer pedido pelo WhatsApp">
+                        Fazer pedido
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="ano-atual"></span> Lanchonete Almeida.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>

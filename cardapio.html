@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cardapio.css">
+</head>
+
+<body>
+    <header class="header-principal">
+        <div class="container-header">
+
+            <div class="header-topo">
+                <img class="logo" src="./assets/imagens/noproduct_imageplaceholder.png" alt="Logo">
+
+                <div class="titulo">
+                    <h1>Lanchonete Almeida</h1>
+                    <p>Lanches artesanais • Pedido rápido pelo WhatsApp</p>
+                </div>
+            </div>
+
+            <nav class="menu-principal">
+                <ul class="links-menu">
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./cardapio.html" class="ativo">Cardápio</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="./duvidas.html">Como Funciona</a></li>
+                </ul>
+
+                <div class="acoes-header">
+                    <a href="#" class="acao">
+                        <img src="./assets/whatsapp.svg">
+                    </a>
+                    <a href="#" class="acao">
+                        <img src="./assets/ifood-logo.svg">
+                    </a>
+                    <a href="#" class="acao">
+                        <img src="./assets/instagram.svg">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="cardapio">
+            <div class="container-titulo">
+                <h2>Cardápio</h2>
+
+                <div class="filtro-wrapper">
+                    <button class="filtro-btn" aria-expanded="false">
+                        <img src="./assets/filtro.svg" alt="">
+                        Filtrar
+                    </button>
+
+                    <ul class="filtro-opcoes">
+                        <li data-filter="todos">Todos</li>
+                        <li data-filter="hamburguer">Hambúrgueres</li>
+                        <li data-filter="porcoes">Porções</li>
+                        <li data-filter="bebidas">Bebidas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- HAMBÚRGUERES -->
+            <section class="categoria-cardapio" id="hamburgueres">
+                <div class="section-header">
+                    <h3 data-categoria="hamburguer">Hambúrgueres</h3>
+                    <span class="section-line"></span>
+                </div>
+
+
+                <div class="lista-itens">
+                    <article class="item-cardapio item-hamburguer destaque" data-categoria="hamburguer">
+                        <img src="./assets/imagens/burger_example.png" alt="">
+                        <h4>Duplo Almeida ⭐</h4>
+                        <p class="descricao">
+                            Pão, dois hambúrgueres artesanais, queijo duplo, alface, tomate e molho especial
+                        </p>
+                        <p class="preco">R$ 27,90</p>
+                    </article>
+
+                    <article class="item-cardapio item-hamburguer" data-categoria="hamburguer">
+                        <img src="./assets/imagens/simple_burger.png" alt="">
+                        <h4>X Burger</h4>
+                        <p class="descricao">
+                            Pão, hambúrguer artesanal, queijo e maionese da casa
+                        </p>
+                        <p class="preco">R$ 18,90</p>
+                    </article>
+
+                    <article class="item-cardapio item-hamburguer" data-categoria="hamburguer">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>X Salada</h4>
+                        <p class="descricao">
+                            Pão, hambúrguer artesanal, queijo, alface, tomate e maionese
+                        </p>
+                        <p class="preco">R$ 21,90</p>
+                    </article>
+
+                    <article class="item-cardapio" data-categoria="hamburguer">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>X Bacon</h4>
+                        <p class="descricao">
+                            Pão, hambúrguer, bacon crocante, queijo, alface, tomate e maionese.
+                        </p>
+                        <p class="preco">R$ 20,90</p>
+                    </article>
+
+                    <article class="item-cardapio" data-categoria="hamburguer">
+                        <img src="./assets/imagens/xEggBurger.png" alt="">
+                        <h4>X Egg Burger</h4>
+                        <p class="descricao">
+                            Pão, hambúrguer, ovo, queijo, alface, tomate e maionese.
+                        </p>
+                        <p class="preco">R$ 20,90</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ACOMPANHAMENTOS -->
+            <section class="categoria-cardapio" id="acompanhamentos">
+                <div class="section-header">
+                    <h3 data-categoria="porcoes">Acompanhamentos</h3>
+                    <span class="section-line"></span>
+                </div>
+
+                <div class="lista-itens">
+                    <article class="item-cardapio item-acompanhamento" data-categoria="porcoes">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>Batata Frita Pequena</h4>
+                        <p class="preco">R$ 9,90</p>
+                    </article>
+
+                    <article class="item-cardapio item-acompanhamento" data-categoria="porcoes">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>Batata Frita Grande</h4>
+                        <p class="preco">R$ 14,90</p>
+                    </article>
+
+                    <article class="item-cardapio item-acompanhamento" data-categoria="porcoes">
+                        <img src="./assets/imagens/fritas_example.png" alt="">
+                        <h4>Batata com Cheddar e Bacon</h4>
+                        <p class="preco">R$ 18,90</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- BEBIDAS -->
+            <section class="categoria-cardapio" id="bebidas">
+                <div class="section-header">
+                    <h3 data-categoria="bebidas">Bebidas</h3>
+                    <span class="section-line"></span>
+                </div>
+
+                <div class="lista-itens">
+                    <article class="item-cardapio item-bebida" data-categoria="bebidas">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>Refrigerante Lata</h4>
+                        <p class="preco">R$ 5,00</p>
+                    </article>
+
+                    <article class="item-cardapio item-bebida" data-categoria="bebidas">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>Refrigerante 600ml</h4>
+                        <p class="preco">R$ 6,50</p>
+                    </article>
+
+                    <article class="item-cardapio item-bebida" data-categoria="bebidas">
+                        <img src="./assets/imagens/sucoNatural.png" alt="">
+                        <h4>Suco Natural</h4>
+                        <p class="preco">R$ 7,90</p>
+                    </article>
+
+                    <article class="item-cardapio item-bebida" data-categoria="bebidas">
+                        <img src="./assets/imagens/aguaMineral.png" alt="">
+                        <h4>Água Mineral</h4>
+                        <p class="preco">R$ 3,00</p>
+                    </article>
+
+                    <article class="item-cardapio item-bebida" data-categoria="bebidas">
+                        <img src="./assets/imagens/noproduct_imageplaceholder.png" alt="">
+                        <h4>Água com Gás</h4>
+                        <p class="preco">R$ 4,50</p>
+                    </article>
+
+                    <article class="item-cardapio item-bebida" data-categoria="bebidas">
+                        <img src="./assets/imagens/suco_example.png" alt="">
+                        <h4>Limonada 500ml</h4>
+                        <p class="preco">R$ 6,00</p>
+                    </article>
+
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="ano-atual"></span> Lanchonete Almeida.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+/* Estilização da Section "Como Funciona" */
+#comoFunciona {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+#comoFunciona h2 {
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+    color: #141414;
+}
+
+/* Card FAQ */
+.faq-item {
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.faq-item:hover {
+    background-color: #fafafa;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.005);
+}
+
+/* Pergunta */
+.faq-pergunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 18px 22px;
+    border-radius: 12px;
+    border: 0;
+    margin: 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.faq-pergunta:hover {
+    background-color: #f1efef;
+}
+
+.faq-pergunta h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Icone */
+.faq-pergunta .icone {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #222;
+    transition: transform 0.3s ease;
+}
+
+/* Resposta */
+.faq-resposta {
+    margin-top: 14px;
+    display: none;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 100%;
+    padding: 0 22px 18px;
+}
+
+.faq-resposta a {
+    color: #777;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.faq-resposta a:hover {
+    color: #444;
+}
+
+/* Estado ativo */
+.faq-item.ativo .faq-resposta {
+    display: block;
+}
+
+.faq-item.ativo .icone {
+    transform: rotate(90deg);
+}

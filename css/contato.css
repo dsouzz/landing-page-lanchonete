@@ -1,0 +1,87 @@
+/* Estilização da Section "Atendimento" */
+#nossoAtendimento {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+#nossoAtendimento h2 {
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+    color: #141414;
+}
+
+.atendimento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+/* Blocos de "Atendimento" */
+.atendimento-bloco {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 2px solid transparent;
+}
+
+.atendimento-bloco h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.atendimento-bloco p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* Destaque de bloco de pedido em "Atendimento" */
+.insta {
+    background-color: #f9f9f9;
+    border-color: #C13584;
+    /* tom clássico do Instagram */
+    box-shadow: 0 4px 10px rgba(193, 53, 132, 0.25);
+}
+
+/* Botões */
+.gp-botoes {
+    display: flex;
+    gap: 24px;
+}
+
+.btn-pedido {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-insta {
+    background-color: #C13584;
+}
+
+.btn-insta:hover {
+    background-color: #A72D6F;
+}
+
+.btn-wp {
+    background-color: #25d366;
+}
+
+.btn-wp:hover {
+    background-color: #1EBE5D;
+}
+
+.btn-ifood {
+    background-color: #EA1D2C;
+}
+
+.btn-ifood:hover {
+    background-color: #C51825;
+}
